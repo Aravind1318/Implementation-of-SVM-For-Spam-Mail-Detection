@@ -60,7 +60,6 @@ print(cl)
 ```
 
 ## Output:
-![SVM For Spam Mail Detection](sam.png)
 <br>
 data
 <br>
