@@ -12,12 +12,14 @@ To write a program to implement the SVM For Spam Mail Detection.
 2. Analyse the data.
 3. Use modelselection and Countvectorizer to preditct the values.
 4. Find the accuracy and display the result.
+ 
+
 ## Program:
 ```
 /*
 Program to implement the SVM For Spam Mail Detection..
-Developed by: ARAVIND P
-RegisterNumber:  212223240054
+Developed by: ARAVIND.P
+RegisterNumber:  212224240015
 */
 
 import pandas as pd
@@ -59,47 +61,48 @@ cl=classification_report(y_test,y_pred)
 print(cl)
 ```
 
+
 ## Output:
-<br>
-data
-<br>
-![Screenshot 2025-05-17 194619](https://github.com/user-attachments/assets/3d93fa53-db9d-4aa5-9dba-0e9ac7464de3)
-<br>
-data.shape()
-<br>
-![Screenshot 2025-05-17 194527](https://github.com/user-attachments/assets/f564cdad-d39e-4746-8f96-0a748b7de740)
-<br>
-x.shape()
-<br>
-![Screenshot 2025-05-17 194531](https://github.com/user-attachments/assets/078625c0-3e6a-422c-9985-ddc8caccfca0)
-<br>
-y.shape()
-<br>
-![Screenshot 2025-05-17 194531](https://github.com/user-attachments/assets/76de7e2f-af98-4222-a8a4-e06436c87a64)
-<br>
-x_train
-<br>
-![Screenshot 2025-05-17 194516](https://github.com/user-attachments/assets/6f9cf887-13ab-4091-bb24-18586d7733d2)
-<br>
-x_train.shape()
-<br>
-![Screenshot 2025-05-17 194548](https://github.com/user-attachments/assets/a6a24f73-8b80-4a0b-af6e-b05bbd86789e)
-<br>
-y_pred
-<br>
-![Screenshot 2025-05-17 194553](https://github.com/user-attachments/assets/443363a6-e5b8-479e-bbdc-5b8e90a0a5c7)
-<br>
-acc (accuracy)
-<br>
-![Screenshot 2025-05-17 194557](https://github.com/user-attachments/assets/163d659e-9bf2-405f-8a2a-d417429ee4c4)
-<br>
-con (confusion matrix)
-<br>
-![Screenshot 2025-05-17 194602](https://github.com/user-attachments/assets/8f627d2a-dadd-4333-af98-f54231f92eb9)
-<br>
-cl (classification report)
-<br>
-![Screenshot 2025-05-17 194606](https://github.com/user-attachments/assets/69b159b7-7bdb-40cd-82ee-f90812be5450)
+### data
+![328855338-4a522776-209c-4329-932c-be8f8102c5ba](https://github.com/HIRU-VIRU/Implementation-of-SVM-For-Spam-Mail-Detection/assets/145972122/5d1f74f3-8c4b-4fa4-b393-1b43b1c65733)
+
+### data.shape()
+![328855480-f8f741f4-3206-4526-92fd-c890f6ecb1e5](https://github.com/HIRU-VIRU/Implementation-of-SVM-For-Spam-Mail-Detection/assets/145972122/db7053c4-c364-44e3-a600-60906ff539e9)
+
+### x.shape()
+![328855694-2d7d8faa-ef77-405b-aedb-3009855bfeb9](https://github.com/HIRU-VIRU/Implementation-of-SVM-For-Spam-Mail-Detection/assets/145972122/90ac9c48-2d53-4143-91ee-9c5876c2e1e0)
+
+### y.shape()  
+![328855981-d3439f11-7e22-4ade-b5c6-917b3352cb8d](https://github.com/HIRU-VIRU/Implementation-of-SVM-For-Spam-Mail-Detection/assets/145972122/f653ba87-2754-4838-9126-6a1c045e7d88)
+
+
+### x_train
+![328856257-67edd510-0d60-49f7-bde7-cd13ba895357](https://github.com/HIRU-VIRU/Implementation-of-SVM-For-Spam-Mail-Detection/assets/145972122/5f30d732-9234-40b3-b80f-a36db89825fb)
+
+
+### x_train.shape()
+![328856601-e9f7eb9a-89b8-4d67-b58c-29e8bd8668e0](https://github.com/HIRU-VIRU/Implementation-of-SVM-For-Spam-Mail-Detection/assets/145972122/41dcdbf5-b54d-4c65-b0b9-177f2bb5ad59)
+
+### y_pred
+![328856854-d98bdfde-aa7b-46a0-814a-020100201f28](https://github.com/HIRU-VIRU/Implementation-of-SVM-For-Spam-Mail-Detection/assets/145972122/c990414a-5280-4964-8eeb-5d0ffaead7a9)
+
+
+### acc (accuracy)
+![328857052-da3dd64d-b341-4b5b-824e-dd621396b816](https://github.com/HIRU-VIRU/Implementation-of-SVM-For-Spam-Mail-Detection/assets/145972122/d1d69362-7f5b-4249-a95b-e9f5e894a917)
+
+### con (confusion matrix)
+![328857298-43ae6fb1-8477-4118-abea-e8b2891123aa](https://github.com/HIRU-VIRU/Implementation-of-SVM-For-Spam-Mail-Detection/assets/145972122/98ae0d93-d355-43f3-b59a-52bb58e13d5e)
+
+### cl (classification report)
+![328857416-c1a9e002-dc90-4f21-bb0d-daf799640c92](https://github.com/HIRU-VIRU/Implementation-of-SVM-For-Spam-Mail-Detection/assets/145972122/3f61b52d-1468-48d1-bbb5-291896323919)
+
+
+
+
+
+
+
+
 
 ## Result:
 Thus the program to implement the SVM For Spam Mail Detection is written and verified using python programming.
